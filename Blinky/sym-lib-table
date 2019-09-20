@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Blinky-rescue)(type Legacy)(uri ${KIPRJMOD}/Blinky-rescue.lib)(options "")(descr ""))
+)

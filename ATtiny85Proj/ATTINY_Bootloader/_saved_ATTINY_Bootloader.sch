@@ -1,0 +1,200 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L arduino:Arduino_Uno_Shield XA1
+U 1 1 5CBE8450
+P 4900 3650
+F 0 "XA1" H 4900 5037 60  0000 C CNN
+F 1 "Arduino_Uno_Shield" H 4900 4931 60  0000 C CNN
+F 2 "Arduino:Arduino_Uno_Shield" H 6700 7400 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-uno-rev3" H 6700 7400 60  0001 C CNN
+	1    4900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20PU U1
+U 1 1 5CBE84ED
+P 4800 1300
+F 0 "U1" H 4270 1346 50  0000 R CNN
+F 1 "ATtiny85-20PU" H 4270 1255 50  0000 R CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 4800 1300 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 4800 1300 50  0001 C CNN
+	1    4800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5CBE8643
+P 4950 5350
+F 0 "C1" V 4698 5350 50  0000 C CNN
+F 1 "C" V 4789 5350 50  0000 C CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P2.50mm" H 4988 5200 50  0001 C CNN
+F 3 "~" H 4950 5350 50  0001 C CNN
+	1    4950 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 4600 6500 4600
+Wire Wire Line
+	6500 4600 6500 5350
+Wire Wire Line
+	6500 5350 5100 5350
+Wire Wire Line
+	4800 5350 4150 5350
+Wire Wire Line
+	3450 5350 3450 4400
+Wire Wire Line
+	3450 4400 3600 4400
+$Comp
+L power:GND #PWR02
+U 1 1 5CBE870F
+P 4150 5350
+F 0 "#PWR02" H 4150 5100 50  0001 C CNN
+F 1 "GND" H 4155 5177 50  0000 C CNN
+F 2 "" H 4150 5350 50  0001 C CNN
+F 3 "" H 4150 5350 50  0001 C CNN
+	1    4150 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 5350
+Wire Wire Line
+	4150 5350 3450 5350
+$Comp
+L power:GND #PWR05
+U 1 1 5CBE8739
+P 7000 5000
+F 0 "#PWR05" H 7000 4750 50  0001 C CNN
+F 1 "GND" H 7005 4827 50  0000 C CNN
+F 2 "" H 7000 5000 50  0001 C CNN
+F 3 "" H 7000 5000 50  0001 C CNN
+	1    7000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5CBE8776
+P 7000 5000
+F 0 "#FLG01" H 7000 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 7000 5174 50  0000 C CNN
+F 2 "" H 7000 5000 50  0001 C CNN
+F 3 "~" H 7000 5000 50  0001 C CNN
+	1    7000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5CBE87B3
+P 7300 5000
+F 0 "#PWR06" H 7300 4850 50  0001 C CNN
+F 1 "+5V" H 7315 5173 50  0000 C CNN
+F 2 "" H 7300 5000 50  0001 C CNN
+F 3 "" H 7300 5000 50  0001 C CNN
+	1    7300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5CBE87CB
+P 7300 5000
+F 0 "#FLG02" H 7300 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 7300 5173 50  0000 C CNN
+F 2 "" H 7300 5000 50  0001 C CNN
+F 3 "~" H 7300 5000 50  0001 C CNN
+	1    7300 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5CBE8925
+P 3600 4600
+F 0 "#PWR01" H 3600 4450 50  0001 C CNN
+F 1 "+5V" V 3615 4728 50  0000 L CNN
+F 2 "" H 3600 4600 50  0001 C CNN
+F 3 "" H 3600 4600 50  0001 C CNN
+	1    3600 4600
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3600 4700
+NoConn ~ 3600 4500
+NoConn ~ 3600 3900
+NoConn ~ 3600 3800
+NoConn ~ 3600 3700
+NoConn ~ 3600 3600
+NoConn ~ 3600 3500
+NoConn ~ 3600 3400
+NoConn ~ 3600 3300
+NoConn ~ 3600 3000
+NoConn ~ 3600 2900
+NoConn ~ 3600 2700
+NoConn ~ 3600 2600
+Text GLabel 6200 3400 2    50   Input ~ 0
+PIN10_PIN1
+Text GLabel 5400 1500 2    50   Input ~ 0
+PIN10_PIN1
+Text GLabel 6200 3500 2    50   Input ~ 0
+PIN11_PIN5
+Text GLabel 5400 1000 2    50   Input ~ 0
+PIN11_PIN5
+Text GLabel 5400 1100 2    50   Input ~ 0
+PIN12_PIN6
+Text GLabel 6200 3600 2    50   Input ~ 0
+PIN12_PIN6
+Text GLabel 6200 3700 2    50   Input ~ 0
+PIN13_PIN7
+Text GLabel 5400 1200 2    50   Input ~ 0
+PIN13_PIN7
+NoConn ~ 5400 1300
+NoConn ~ 5400 1400
+$Comp
+L power:GND #PWR04
+U 1 1 5CBE8DC2
+P 4800 1900
+F 0 "#PWR04" H 4800 1650 50  0001 C CNN
+F 1 "GND" H 4805 1727 50  0000 C CNN
+F 2 "" H 4800 1900 50  0001 C CNN
+F 3 "" H 4800 1900 50  0001 C CNN
+	1    4800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5CBE8DF1
+P 4800 700
+F 0 "#PWR03" H 4800 550 50  0001 C CNN
+F 1 "+5V" H 4815 873 50  0000 C CNN
+F 2 "" H 4800 700 50  0001 C CNN
+F 3 "" H 4800 700 50  0001 C CNN
+	1    4800 700 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6200 2600
+NoConn ~ 6200 2700
+NoConn ~ 6200 2800
+NoConn ~ 6200 2900
+NoConn ~ 6200 3000
+NoConn ~ 6200 3100
+NoConn ~ 6200 3200
+NoConn ~ 6200 3300
+NoConn ~ 6200 3900
+NoConn ~ 6200 4000
+NoConn ~ 6200 4100
+NoConn ~ 6200 4200
+NoConn ~ 6200 4300
+NoConn ~ 6200 4400
+NoConn ~ 6200 4700
+NoConn ~ 3600 4200
+NoConn ~ 3600 4300
+$EndSCHEMATC
