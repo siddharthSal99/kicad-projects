@@ -1,0 +1,244 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L arduino:Arduino_Uno_Shield XA?
+U 1 1 5DA512E2
+P 6700 2600
+F 0 "XA?" H 6700 3987 60  0000 C CNN
+F 1 "Arduino_Uno_Shield" H 6700 3881 60  0000 C CNN
+F 2 "" H 8500 6350 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-uno-rev3" H 8500 6350 60  0001 C CNN
+	1    6700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5DA513C9
+P 8900 5050
+F 0 "SW?" V 9300 4950 50  0000 L CNN
+F 1 "SW_SPDT" V 9200 4950 50  0000 L CNN
+F 2 "" H 8900 5050 50  0001 C CNN
+F 3 "" H 8900 5050 50  0001 C CNN
+	1    8900 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5DA513F1
+P 8450 5050
+F 0 "SW?" V 8850 4900 50  0000 L CNN
+F 1 "SW_SPDT" V 8750 4900 50  0000 L CNN
+F 2 "" H 8450 5050 50  0001 C CNN
+F 3 "" H 8450 5050 50  0001 C CNN
+	1    8450 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5DA5173F
+P 8000 5050
+F 0 "SW?" V 8400 4950 50  0000 L CNN
+F 1 "SW_SPDT" V 8300 4950 50  0000 L CNN
+F 2 "" H 8000 5050 50  0001 C CNN
+F 3 "" H 8000 5050 50  0001 C CNN
+	1    8000 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5DA51746
+P 7550 5050
+F 0 "SW?" V 7950 4900 50  0000 L CNN
+F 1 "SW_SPDT" V 7850 4900 50  0000 L CNN
+F 2 "" H 7550 5050 50  0001 C CNN
+F 3 "" H 7550 5050 50  0001 C CNN
+	1    7550 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5DA51786
+P 7150 5050
+F 0 "SW?" V 7550 4950 50  0000 L CNN
+F 1 "SW_SPDT" V 7450 4950 50  0000 L CNN
+F 2 "" H 7150 5050 50  0001 C CNN
+F 3 "" H 7150 5050 50  0001 C CNN
+	1    7150 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5DA5178D
+P 6700 5050
+F 0 "SW?" V 7100 4900 50  0000 L CNN
+F 1 "SW_SPDT" V 7000 4900 50  0000 L CNN
+F 2 "" H 6700 5050 50  0001 C CNN
+F 3 "" H 6700 5050 50  0001 C CNN
+	1    6700 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5DA517D2
+P 9300 5050
+F 0 "SW?" V 9700 4900 50  0000 L CNN
+F 1 "SW_SPDT" V 9600 4900 50  0000 L CNN
+F 2 "" H 9300 5050 50  0001 C CNN
+F 3 "" H 9300 5050 50  0001 C CNN
+	1    9300 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DA5181B
+P 6150 5650
+F 0 "#PWR?" H 6150 5500 50  0001 C CNN
+F 1 "+5V" H 6165 5823 50  0000 C CNN
+F 2 "" H 6150 5650 50  0001 C CNN
+F 3 "" H 6150 5650 50  0001 C CNN
+	1    6150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5650 9200 5250
+Wire Wire Line
+	8800 5650 8800 5250
+Wire Wire Line
+	8350 5650 8350 5250
+Wire Wire Line
+	7900 5650 7900 5250
+Wire Wire Line
+	7450 5650 7450 5250
+Wire Wire Line
+	7050 5650 7050 5250
+Wire Wire Line
+	6600 5650 6600 5250
+$Comp
+L power:GND #PWR?
+U 1 1 5DA51A1B
+P 6150 5850
+F 0 "#PWR?" H 6150 5600 50  0001 C CNN
+F 1 "GND" H 6155 5677 50  0000 C CNN
+F 2 "" H 6150 5850 50  0001 C CNN
+F 3 "" H 6150 5850 50  0001 C CNN
+	1    6150 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 5850 9400 5250
+Wire Wire Line
+	9000 5850 9000 5250
+Wire Wire Line
+	9200 5650 8800 5650
+Wire Wire Line
+	8800 5650 8350 5650
+Connection ~ 8800 5650
+Connection ~ 7050 5650
+Wire Wire Line
+	7050 5650 6600 5650
+Connection ~ 7450 5650
+Wire Wire Line
+	7450 5650 7050 5650
+Connection ~ 7900 5650
+Wire Wire Line
+	7900 5650 7450 5650
+Connection ~ 8350 5650
+Wire Wire Line
+	8350 5650 7900 5650
+Wire Wire Line
+	6150 5650 6600 5650
+Connection ~ 6600 5650
+Wire Wire Line
+	6150 5850 6800 5850
+Connection ~ 9000 5850
+Wire Wire Line
+	9000 5850 9400 5850
+Wire Wire Line
+	8550 5250 8550 5850
+Connection ~ 8550 5850
+Wire Wire Line
+	8550 5850 9000 5850
+Wire Wire Line
+	8100 5250 8100 5850
+Connection ~ 8100 5850
+Wire Wire Line
+	8100 5850 8550 5850
+Wire Wire Line
+	7650 5250 7650 5850
+Connection ~ 7650 5850
+Wire Wire Line
+	7650 5850 8100 5850
+Wire Wire Line
+	7250 5250 7250 5850
+Connection ~ 7250 5850
+Wire Wire Line
+	7250 5850 7650 5850
+Wire Wire Line
+	6800 5250 6800 5850
+Connection ~ 6800 5850
+Wire Wire Line
+	6800 5850 7250 5850
+Text GLabel 6700 4850 1    50   Input ~ 0
+S0
+Text GLabel 7150 4850 1    50   Input ~ 0
+S1
+Text GLabel 7550 4850 1    50   Input ~ 0
+S2
+Text GLabel 8000 4850 1    50   Input ~ 0
+S3
+Text GLabel 8450 4850 1    50   Input ~ 0
+S4
+Text GLabel 8900 4850 1    50   Input ~ 0
+S5
+Text GLabel 9300 4850 1    50   Input ~ 0
+S6
+Text GLabel 8000 1550 2    50   Input ~ 0
+S0
+Text GLabel 8000 1650 2    50   Input ~ 0
+S1
+Text GLabel 8000 1750 2    50   Input ~ 0
+S2
+Text GLabel 8000 1850 2    50   Input ~ 0
+S3
+Text GLabel 8000 1950 2    50   Input ~ 0
+S4
+Text GLabel 8000 2050 2    50   Input ~ 0
+S5
+Text GLabel 8000 2150 2    50   Input ~ 0
+S6
+$Comp
+L power:+5V #PWR?
+U 1 1 5DA5DA3D
+P 5400 3650
+F 0 "#PWR?" H 5400 3500 50  0001 C CNN
+F 1 "+5V" V 5415 3778 50  0000 L CNN
+F 2 "" H 5400 3650 50  0001 C CNN
+F 3 "" H 5400 3650 50  0001 C CNN
+	1    5400 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA5DAD8
+P 5400 3150
+F 0 "#PWR?" H 5400 2900 50  0001 C CNN
+F 1 "GND" V 5405 3022 50  0000 R CNN
+F 2 "" H 5400 3150 50  0001 C CNN
+F 3 "" H 5400 3150 50  0001 C CNN
+	1    5400 3150
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TempSensor)(type Legacy)(uri "C:/Users/siddh/Documents/GeorgiaTech/Invention Studio/FirstKiCadProj/TempSensorCircuit/TempSensor.lib")(options "")(descr ""))
+)
